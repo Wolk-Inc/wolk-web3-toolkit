@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "analyse": "tsx src/cli/index.ts"
+    "analyse": "tsx src/cli/index.ts",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
